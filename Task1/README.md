@@ -1,1 +1,3 @@
+I loaded the Titanic dataset and checked what data it contained, including the types of each column. I found missing values in the "Age" column, so I filled them using the mean or median to handle those gaps. Then, I converted categorical features like "Sex" and "Embarked" into numerical values so they could be used by machine learning models.
 
+Next, I standardized the numerical columns such as "Age" and "Fare" to bring them onto a similar scale. After that, I visualized the data using boxplots to identify any outliers. I removed those outliers using the interquartile range method to clean the data and make it more reliable for analysis or modeling.
